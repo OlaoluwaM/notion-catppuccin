@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OlaoluwaM/notion-catppuccin/assets/preview.png"/>
+  <img src="https://raw.githubusercontent.com/OlaoluwaM/notion-catppuccin/assets/preview_high.png"/>
 </p>
 
 ## Usage
