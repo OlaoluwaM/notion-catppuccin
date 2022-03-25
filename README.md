@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OlaoluwaM/notion-catppuccin/assets/preview_high.png"/>
+  <img src="./assets/preview_high.png"/>
 </p>
 
 ## Usage
@@ -24,12 +24,12 @@
 
 ## 🙋 FAQ (optional)
 
-- Q: **_"Where can I find the doc?"_**
-  A: Run `:help theme`
+-   Q: **_"Where can I find the doc?"_**
+    A: Run `:help theme`
 
 ## 💝 Thanks to
 
-- [OlaoluwaM](https://github.com/OlaoluwaM)
+-   [OlaoluwaM](https://github.com/OlaoluwaM)
 
 &nbsp;
 
