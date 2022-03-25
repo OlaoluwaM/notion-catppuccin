@@ -1,0 +1,105 @@
+:root {
+  --rosewater: 10, 56%, 91%;
+  --flamingo: 0, 59%, 88%;
+  --mauve: 279, 70%, 83%;
+  --pink_theme: 316, 72%, 86%;
+  --maroon: 349, 60%, 77%;
+  --red_theme: 342, 79%, 75%;
+  --peach: 024, 88%, 78%;
+  --yellow_theme: 041, 88%, 84%;
+  --green_theme: 128, 58%, 79%;
+  --green_darken: 128, 58%, 76%;
+  --green_darkest: 128, 58%, 72%;
+  --teal: 171, 53%, 81%;
+  --blue_theme: 207, 93%, 79%;
+  --blue_darken: 213, 84%, 78%;
+  --sky: 189, 71%, 73%;
+  --lavender: 238, 100%, 89%;
+
+  --black0: 254, 25%, 10%;
+  --black1: 249, 23%, 12%;
+  --black2: 240, 21%, 15%;
+  --black3: 249, 18%, 22%;
+  --black4: 254, 12%, 36%;
+  --gray0: 247, 8%, 46%;
+  --gray1: 274, 11%, 59%;
+  --gray2: 285, 10%, 75%;
+  --white: 220, 38%, 89%;
+
+  --bg: hsl(var(--black1));
+  --bg-light: hsl(var(--black1));
+  --bg-lighter: hsla(var(--black1));
+  --fg: hsla(var(--white), 1);
+  --fg-light: hsl(var(--white));
+  --fg-lighter: hsl(var(--fg-light));
+  --main: hsl(var(--blue_darken), 0.8);
+  --hover: hsl(var(--black3), 0.8);
+  --border: hsl(var(--black3));
+  --selection: hsla(var(--gray0), 0.5);
+  --gray: hsl(var(--gray1));
+  --brown: hsl(var(--flamingo));
+  --orange: hsl(var(--peach));
+  --yellow: hsl(var(--yellow_theme));
+  --green: hsl(var(--green_theme));
+  --blue: hsl(var(--blue_theme));
+  --purple: hsl(var(--mauve));
+  --pink: hsl(var(--pink_theme));
+  --red: hsl(var(--red_theme));
+  --bg-gray: hsl(var(--black3));
+  --bg-brown: hsla(var(--flamingo), 0.9);
+  --bg-orange: hsl(var(--peach), 0.9);
+  --bg-yellow: hsla(var(--yellow_theme), 0.9);
+  --bg-green: hsla(var(--green_darken), 0.9);
+  --bg-blue: hsla(var(--blue_darken), 0.9);
+  --bg-purple: hsla(var(--mauve), 0.9);
+  --bg-pink: hsla(var(--pink_theme), 0.9);
+  --bg-red: hsl(var(--red_theme), 0.9);
+}
+
+/* Inline Code block */
+div.notion-selectable.notion-callout-block > div > div {
+  background: hsla(var(--black3), 0.5) !important;
+}
+
+div.notion-dark-theme
+  :where(*[style*='background: rgb(137, 99, 42)'], *[style*='background: rgb(73, 47, 100)'], *[style*='background: rgb(43, 89, 63)'], *[style*='background: rgb(133, 76, 29)'], *[style*='background: rgb(133, 76, 29)'], *[style*='background: rgb(40, 69, 108)'], *[style*='background: rgb(105, 49, 76)'], *[style*='background: rgb(110, 54, 48)'], *[style*='background: rgb(96, 59, 44)'], ) {
+  color: hsl(var(--black1)) !important;
+}
+
+div.notion-dark-theme div[style*='background: rgb(46, 170, 220)'] {
+  background: hsla(var(--blue_darken), 1) !important;
+  color: hsl(var(--black1)) !important;
+  border-right: 0.5px solid hsl(var(--black3), 0.5) !important;
+}
+
+div.notion-dark-theme div[style*='background: rgb(46, 170, 220)'] svg {
+  background: hsla(var(--blue_darken), 1) !important;
+  fill: hsl(var(--black1)) !important;
+}
+
+div.notion-dark-theme div[style*='background: rgb(46, 170, 220)']:hover {
+  opacity: 0.3 !important;
+}
+
+div.notion-dark-theme *[style*='background: rgb(32, 32, 32)'] {
+  background: hsl(var(--black2)) !important;
+}
+
+div.notion-dark-theme *[style*='background: rgb(37, 37, 37)'] {
+  background: hsl(var(--black3)) !important;
+}
+
+div.notion-dark-theme *[style*='color: rgba(255, 255, 255, 0.87)'] {
+  color: hsl(var(--white)) !important;
+  -webkit-text-fill-color: hsl(var(--white)) !important;
+}
+
+div.notion-dark-theme div[style*='-webkit-text-fill-color: rgb(55, 55, 55)'] {
+  color: hsl(var(--white), 0.4) !important;
+  -webkit-text-fill-color: hsl(var(--gray2), 0.4) !important;
+}
+
+div.notion-dark-theme *[style*='color: rgb(155, 155, 155)'] {
+  color: hsl(var(--white), 0.6) !important;
+  -webkit-text-fill-color: hsl(var(--white), 0.6) !important;
+}

@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/sample.png"/>
+  <img src="https://raw.githubusercontent.com/OlaoluwaM/notion-catppuccin/assets/preview.png"/>
 </p>
 
 ## Usage
@@ -29,7 +29,7 @@
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [OlaoluwaM](https://github.com/OlaoluwaM)
 
 &nbsp;
 
