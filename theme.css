@@ -111,6 +111,11 @@ div.notion-dark-theme *[style*="color: rgb(155, 155, 155)"] {
     -webkit-text-fill-color: hsl(var(--white), 0.6) !important;
 }
 
+div.notion-dark-theme div[style*="color: rgba(255, 255, 255, 0.87)"]:after {
+  color: hsla(var(--gray2), 0.7) !important;
+  -webkit-text-fill-color: hsl(var(--gray2), 0.7) !important;
+}
+
 /* For Notion Enhancer*/
 
 :root.dark.dark {
