@@ -110,3 +110,13 @@ div.notion-dark-theme *[style*="color: rgb(155, 155, 155)"] {
     color: hsl(var(--white), 0.6) !important;
     -webkit-text-fill-color: hsl(var(--white), 0.6) !important;
 }
+
+/* For Notion Enhancer*/
+
+:root.dark.dark {
+  --theme--bg_secondary: hsl(var(--black2));
+  --theme_text: hsl(var(--white));
+  --theme--ui_interactive-hover: hsl(var(--black3));
+  --theme--ui_interactive-active: hsl(var(--black4));
+  --indentation_lines--color: hsla(var(--white), 0.5)
+}
