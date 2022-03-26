@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for App
+	Catppuccin for Notion
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -17,15 +17,19 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+_Temporary while we wait for the theme to be merged and included in [this repo](https://github.com/notionblog/themes/issues/1)_
 
-## 🙋 FAQ (optional)
+1. Install the Stylus web extension
+2. Head to this link [Notion-Catppuccin](https://userstyles.world/style/3838/notion-catppuccin) on the stylus market place
+3. Install the theme
+4. Enable the theme through the stylus extension
+5. Refresh your notion and enjoy!
+
+<!-- ## 🙋 FAQ (optional)
 
 -   Q: **_"Where can I find the doc?"_**
     A: Run `:help theme`
+-->
 
 ## 💝 Thanks to
 
