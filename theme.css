@@ -64,7 +64,8 @@
   --theme--ui_interactive-hover: hsl(var(--black3));
   --theme--ui_interactive-active: hsl(var(--black4));
   --indentation_lines--color: hsla(var(--white), 0.5);
-  --theme--ui_corner_action: hsla(var(--black4), 0.5)
+  --theme--ui_corner_action: hsla(var(--black4), 0.5);
+  --theme--ui_corner_action-hover: hsla(var(--black4), 0.9);
 }
 
 /* Inline Code block */
@@ -129,4 +130,8 @@ div.notion-dark-theme div[style*="color: rgba(255, 255, 255, 0.87)"]:after {
 
 div.notion-dark-theme div.notion-help-button {
   background: hsla(var(--black4), 0.5) !important;
+}
+
+div.notion-dark-theme div.notion-help-button:hover {
+  background: hsla(var(--black4), 0.9);
 }
