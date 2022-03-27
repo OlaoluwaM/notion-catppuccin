@@ -56,6 +56,17 @@
     --bg-red: hsl(var(--red_theme), 0.9);
 }
 
+/* For Notion Enhancer*/
+
+:root.dark.dark {
+  --theme--bg_secondary: hsl(var(--black2));
+  --theme_text: hsl(var(--white));
+  --theme--ui_interactive-hover: hsl(var(--black3));
+  --theme--ui_interactive-active: hsl(var(--black4));
+  --indentation_lines--color: hsla(var(--white), 0.5);
+  --theme--ui_corner_action: hsla(var(--black4), 0.5)
+}
+
 /* Inline Code block */
 div.notion-selectable.notion-callout-block > div > div {
     background: hsla(var(--black3), 0.5) !important;
@@ -116,12 +127,6 @@ div.notion-dark-theme div[style*="color: rgba(255, 255, 255, 0.87)"]:after {
   -webkit-text-fill-color: hsl(var(--gray2), 0.7) !important;
 }
 
-/* For Notion Enhancer*/
-
-:root.dark.dark {
-  --theme--bg_secondary: hsl(var(--black2));
-  --theme_text: hsl(var(--white));
-  --theme--ui_interactive-hover: hsl(var(--black3));
-  --theme--ui_interactive-active: hsl(var(--black4));
-  --indentation_lines--color: hsla(var(--white), 0.5)
+div.notion-dark-theme div.notion-help-button {
+  background: hsla(var(--black4), 0.5) !important;
 }
