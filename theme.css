@@ -110,7 +110,7 @@ div.notion-dark-theme *[style*="background: rgb(37, 37, 37)"] {
 
 div.notion-dark-theme *[style*="color: rgba(255, 255, 255, 0.87)"] {
     color: hsl(var(--white)) !important;
-    -webkit-text-fill-color: hsl(var(--white)) !important;
+    -webkit-text-fill-color: currentColor;
 }
 
 div.notion-dark-theme div[style*="-webkit-text-fill-color: rgb(55, 55, 55)"] {
