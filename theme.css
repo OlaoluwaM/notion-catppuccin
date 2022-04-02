@@ -147,3 +147,15 @@ div.notion-dark-theme div.notion-help-button:hover {
     color: hsla(var(--white), 0.5) !important;
     -webkit-text-fill-color: currentColor !important;
 }
+
+/* For the Heading placeholder when a heading is created with no text */
+div.notion-dark-theme div[style*="-webkit-text-fill-color: rgb(55, 55, 55)"]:after {
+   color: hsla(var(--gray0), 0.4) !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+/* For the command prompt. The 'Type / for command' thing*/
+div.notion-dark-theme div[style*="-webkit-text-fill-color: rgba(255, 255, 255, 0.443)"]:after {
+  color: hsla(var(--gray1), 0.6) !important;
+  -webkit-text-fill-color: currentColor !important;
+}
