@@ -159,3 +159,13 @@ div.notion-dark-theme div[style*="-webkit-text-fill-color: rgba(255, 255, 255, 0
   color: hsla(var(--gray1), 0.6) !important;
   -webkit-text-fill-color: currentColor !important;
 }
+
+/* For links */
+.notion-dark-theme a.notion-link-token {
+    background: hsl(var(--rosewater)) !important;
+    color: hsl(var(--black0)) !important;
+    padding: 4px !important;
+    padding-top: 6px !important;
+    border-radius: 5px;
+    caret-color: currentColor !important
+}
