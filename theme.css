@@ -68,7 +68,7 @@
     --theme--ui_corner_action-hover: hsla(var(--black4), 0.9);
 }
 
-/* Inline Code block (Custom tweaks) */
+/* Inline Code block */
 div.notion-selectable.notion-callout-block > div > div {
     background: hsla(var(--black3), 0.5) !important;
 }
@@ -114,15 +114,16 @@ div.notion-dark-theme
     -webkit-text-fill-color: currentColor;
 }
 
-div.notion-dark-theme *[style*="color: rgb(155, 155, 155)"] {
+div.notion-dark-theme *[style*="color:rgba(155, 155, 155, 1)"] {
     color: hsl(var(--white), 0.6) !important;
+    fill: currentColor !important;
     -webkit-text-fill-color: currentColor !important;
 }
 
 div.notion-dark-theme
-    *[style*="color: rgb(155, 155, 155)"]
+    *[style*="color:rgba(155, 155, 155, 1)"]
     .notion-focusable:hover {
-    color: hsl(var(--white)) !important;
+    color: hl(var(--white)) !important;
     -webkit-text-fill-color: currentColor !important;
 }
 
@@ -149,18 +150,31 @@ div.notion-dark-theme div.notion-help-button:hover {
 }
 
 /* For the Heading placeholder when a heading is created with no text */
-div.notion-dark-theme div[style*="-webkit-text-fill-color: rgb(55, 55, 55)"]:after {
-   color: hsla(var(--gray0), 0.4) !important;
-  -webkit-text-fill-color: currentColor !important;
+div.notion-dark-theme
+    div[style*="-webkit-text-fill-color: rgb(55, 55, 55)"]:after {
+    color: hsla(var(--gray0), 0.4) !important;
+    -webkit-text-fill-color: currentColor !important;
 }
 
 /* For the command prompt. The 'Type / for command' thing*/
-div.notion-dark-theme div[style*="-webkit-text-fill-color: rgba(255, 255, 255, 0.443)"]:after {
-  color: hsla(var(--gray1), 0.6) !important;
-  -webkit-text-fill-color: currentColor !important;
+div.notion-dark-theme
+    div[style*="-webkit-text-fill-color: rgba(255, 255, 255, 0.443)"]:after {
+    color: hsla(var(--gray1), 0.6) !important;
+    -webkit-text-fill-color: currentColor !important;
 }
 
-/* For links */
+/* For Settings dropdown */
+div.notion-dark-theme div[style*="background-color: rgb(37, 37, 37)"] {
+    background-color: hsl(var(--black3)) !important;
+}
+
+/* Edit Template Overlay */
+div.notion-dark-theme div[style*="background: rgb(55, 60, 63)"] {
+    background: var(--bg-gray) !important;
+}
+
+/*
+For links
 .notion-dark-theme a.notion-link-token {
     background: hsl(var(--rosewater)) !important;
     color: hsl(var(--black0)) !important;
@@ -169,3 +183,4 @@ div.notion-dark-theme div[style*="-webkit-text-fill-color: rgba(255, 255, 255, 0
     border-radius: 5px;
     caret-color: currentColor !important
 }
+*/
