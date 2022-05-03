@@ -173,6 +173,27 @@ div.notion-dark-theme div[style*="background: rgb(55, 60, 63)"] {
     background: var(--bg-gray) !important;
 }
 
+/* Quote Block */
+.notion-dark-theme .notion-quote-block {
+    font-style: italic;
+}
+
+/* For the Grays */
+/* rgb(55, 55, 55) is Light Gray*/
+div.notion-dark-theme div[style*="background: rgb(55, 55, 55)"] {
+    background-color: hsl(var(--gray0)) !important
+}
+
+/* rgb(90, 90, 90) is Regular Gray*/
+div.notion-dark-theme div[style*="background: rgb(90, 90, 90)"] {
+    background-color: hsl(var(--black4)) !important
+}
+
+/* For layout blocks */
+.notion-dark-theme a[style*="background: rgba(255, 255, 255, 0.055)"] {
+    background-color: hsl(var(--black3)) !important;
+}
+
 /*
 For links
 .notion-dark-theme a.notion-link-token {
