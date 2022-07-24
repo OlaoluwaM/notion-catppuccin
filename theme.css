@@ -54,6 +54,8 @@
     --bg-purple: hsla(var(--mauve), 0.9);
     --bg-pink: hsla(var(--pink_theme), 0.9);
     --bg-red: hsl(var(--red_theme), 0.9);
+
+    --text-gray: hsla(var(--white), 0.5);
 }
 
 /* For Notion Enhancer*/
@@ -63,7 +65,7 @@
     --theme_text: hsl(var(--white));
     --theme--ui_interactive-hover: hsl(var(--black3));
     --theme--ui_interactive-active: hsl(var(--black4));
-    --indentation_lines--color: hsla(var(--white), 0.5);
+    --indentation_lines--color: var(--text-gray);
     --theme--ui_corner_action: hsla(var(--black4), 0.5);
     --theme--ui_corner_action-hover: hsla(var(--black4), 0.9);
 }
@@ -115,7 +117,7 @@ div.notion-dark-theme
 }
 
 div.notion-dark-theme *[style*="color:rgba(155, 155, 155, 1)"] {
-    color: hsl(var(--white), 0.6) !important;
+    color: var(--text-gray) !important;
     fill: currentColor !important;
     -webkit-text-fill-color: currentColor !important;
 }
@@ -123,7 +125,7 @@ div.notion-dark-theme *[style*="color:rgba(155, 155, 155, 1)"] {
 div.notion-dark-theme
     *[style*="color:rgba(155, 155, 155, 1)"]
     .notion-focusable:hover {
-    color: hl(var(--white)) !important;
+    color: var(--white) !important;
     -webkit-text-fill-color: currentColor !important;
 }
 
@@ -145,7 +147,7 @@ div.notion-dark-theme div.notion-help-button:hover {
 .notion-dark-theme
     *[style*="background: rgb(25, 25, 25)"]
     > div[style*="color: rgba(255, 255, 255, 0.565)"] {
-    color: hsla(var(--white), 0.5) !important;
+    color: var(--text-gray) !important;
     -webkit-text-fill-color: currentColor !important;
 }
 
@@ -176,23 +178,29 @@ div.notion-dark-theme div[style*="background: rgb(55, 60, 63)"] {
 /* Quote Block */
 .notion-dark-theme .notion-quote-block {
     font-style: italic;
+/*    color: hsla(var(--gray0), 0.8) !important; */
 }
 
 /* For the Grays */
 /* rgb(55, 55, 55) is Light Gray*/
 div.notion-dark-theme div[style*="background: rgb(55, 55, 55)"] {
-    background-color: hsl(var(--gray0)) !important
+    background-color: hsl(var(--gray0)) !important;
 }
 
 /* rgb(90, 90, 90) is Regular Gray*/
 div.notion-dark-theme div[style*="background: rgb(90, 90, 90)"] {
-    background-color: hsl(var(--black4)) !important
+    background-color: hsl(var(--black4)) !important;
 }
 
 /* For layout blocks */
 .notion-dark-theme a[style*="background: rgba(255, 255, 255, 0.055)"] {
     background-color: hsl(var(--black3)) !important;
 }
+
+/* For nested quotes */
+/* .notion-dark-theme .notion-quote-block .notion-quote-block div div[placeholder] {
+    color: var(--text-gray) !important
+} */
 
 /*
 For links
