@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name           Notion Catppuccin
+@namespace      github.com/OlaoluwaM/notion-catppuccin
+@description    Soothing pastel theme for Notion
+@author         OlaoluwaM
+@updateURL      https://raw.githubusercontent.com/OlaoluwaM/notion-catppuccin/main/theme.css
+@preprocessor   stylus
+
+==UserStyle== */
+
 :root {
     --rosewater: 10, 56%, 91%;
     --flamingo: 0, 59%, 88%;
