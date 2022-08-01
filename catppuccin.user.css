@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           Notion Catppuccin
 @namespace      https://github.com/OlaoluwaM
-@version        1.0.0
+@version        1.0.1
 @description    Soothing pastel theme for Notion
 @author         OlaoluwaM
 @homepageURL    https://github.com/OlaoluwaM/notion-catppuccin
 @updateURL      https://raw.githubusercontent.com/OlaoluwaM/notion-catppuccin/main/catppuccin.user.css
 
 ==/UserStyle== */
-@-moz-document url-prefix("https://notion.com")
+@-moz-document url-prefix("https://notion.so")
 {
     :root {
         --rosewater: 10, 56%, 91%;
