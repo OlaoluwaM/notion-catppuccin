@@ -8,7 +8,7 @@
 @updateURL      https://raw.githubusercontent.com/OlaoluwaM/notion-catppuccin/main/catppuccin.user.css
 @preprocessor   stylus
 
-==UserStyle== */
+==/UserStyle== */
 :root {
     --rosewater: 10, 56%, 91%;
     --flamingo: 0, 59%, 88%;
