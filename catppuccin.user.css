@@ -97,7 +97,8 @@
       *[style*='background: rgb(40, 69, 108)'],
       *[style*='background: rgb(105, 49, 76)'],
       *[style*='background: rgb(110, 54, 48)'],
-      *[style*='background: rgb(96, 59, 44)']
+      *[style*='background: rgb(96, 59, 44)'],
+	  *[style*="background: rgb(35, 131, 226)"]
    ) {
 /* prettier-ignore */
   color: hsl(var(--black1)) !important;
@@ -208,6 +209,47 @@
     /* For layout blocks */
     .notion-dark-theme a[style*="background: rgba(255, 255, 255, 0.055)"] {
         background-color: hsl(var(--black3)) !important;
+    }
+
+    /* Fixing Issues with the blue*/
+    .notion-dark-theme [style*="color: rgb(35, 131, 226)"],
+    .notion-dark-theme [style*="fill: rgb(35, 131, 226)"] {
+        color: hsla(var(--blue_darken), 1) !important;
+        fill: var(--bg-blue) !important;
+    }
+
+    .notion-dark-theme [style*="background: rgb(0, 117, 211)"] {
+        background: hsla(var(--blue_darken), 1) !important;
+        color: hsl(var(--black1)) !important;
+    }
+
+    .notion-dark-theme [style*="background: rgb(0, 117, 211)"] svg {
+        fill: hsl(var(--black1)) !important;
+    }
+
+    .notion-dark-theme [style*="rgba(35, 131, 226, 0.35)"] {
+        border: 1px solid hsla(var(--blue_theme), 0.35) !important;
+    }
+
+    .notion-dark-theme [style*="background: rgba(35, 131, 226, 0.07)"] {
+        background: hsla(var(--blue_theme), 0.07) !important;
+    }
+
+    .notion-dark-theme *[style*="background: rgb(35, 131, 226)"] svg {
+        fill: hsl(var(--black1)) !important;
+    }
+
+    .notion-dark-theme *[style*="color: rgb(41, 90, 149)"],
+    .notion-dark-theme *[style*="fill: rgb(40, 69, 108)"] {
+        color: hsla(var(--blue_theme), 0.6) !important;
+        fill: hsla(var(--blue_theme), 0.4) !important;
+    }
+
+    /* Fixing Green */
+    .notion-dark-theme *[style*="color: rgb(45, 118, 80)"],
+    .notion-dark-theme *[style*="fill: rgb(43, 89, 63)"] {
+        color: hsla(var(--green_theme), 0.6) !important;
+        fill: hsla(var(--green_theme), 0.4) !important;
     }
 
     /* For nested quotes */
@@ -455,7 +497,8 @@ red rgba(62, 40, 37, 1) => rgba(94, 52, 54, 1)
 
     .notion-dark-theme *[style*="background:rgba(62, 40, 37, 1)"],
     .notion-dark-theme *[style*="background: rgb(54, 36, 34)"],
-    .notion-dark-theme *[style*="background: rgb(110, 54, 48)"] {
+    .notion-dark-theme *[style*="background: rgb(110, 54, 48)"],
+    .notion-dark-theme *[style*="background: rgb(180, 65, 60)"] {
         background: var(--bg-red) !important;
     }
 
